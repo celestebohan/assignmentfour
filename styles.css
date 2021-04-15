@@ -1,0 +1,35 @@
+@font-face{
+	font-family: almendra;
+  src: url(./almendra.ttf);
+}
+}
+
+
+
+#roots{
+	position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -100;
+}
+
+#playVid{
+	font-size: 2.7em;
+	z-index: 100;
+	position: absolute;
+	right: 10vh;
+	top: 45vw;
+	font-family:almendra;
+	color:#645714;
+	background:none;
+	border: 2px solid #645714;
+	border-radius:33%;
+
+}
+
+#playVid:hover{
+	color:#FAFEC1;
+	border: 2px solid #FAFEC1;
+}
